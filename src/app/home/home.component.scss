@@ -1,0 +1,13 @@
+.bg-home {
+    background-image: url("/assets/img/burritos.jpg");
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-home{
+    width: 150px;
+    height: 50px;
+}

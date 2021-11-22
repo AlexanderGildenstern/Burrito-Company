@@ -1,0 +1,23 @@
+<div class="menu-container">
+        <table class="menu-list" *ngFor="let menu of menu">
+            <tr class="title-desc">
+                <td>
+                    <h2>{{ menu.name }}</h2>
+                    <span>{{ menu.description }}</span>
+                </td>
+            </tr>
+            <tr class="add-btn-container">
+                <td>
+                    <span>{{ menu.price }} €</span>
+                </td>
+                <td>
+                    <button class="add-btn-menu" mat-fab color="warn">
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </td>
+            </tr>
+        </table>
+</div>
+<div class="basket-container">
+
+</div>
